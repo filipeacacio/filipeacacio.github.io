@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Vimdiff - Comandos básicos"
+date:   2020-01-22 20:55:00 +0000
+categories: linux vi vim vimdiff
+---
+
+Pra quem não sabe o vimdiff é uma feature do editor de textos vim para comparar arquivos. É bastante utilizado para visualizar diferenças em arquivos (de texto) semelhantes, sobretudo em servidores sem ambiente gráfico. Ele pode ser utilizado para comparar 2, 3 ou 4 arquivos simultaneamente.
+
+### Comparando dois aquivos
+
+O comando a baixo vai abrir os dois arquivos xml e mostrar as diferenças.
+```
+vimdiff arquivo1.xml arquivo2.xml
+```
+Os principais comandos do vimdiff são:
+
+- **do** - Traz a diferença corrente (onde está o cursor) do outro arquivo para o arquivo atual.
+- **dp** - Leva a diferença corrente (onde está o cursor) do arquivo atual para o outro arquivo.
+- **]c** - Vai para a próxima alteração.
+- **[c** - Vai para a alteração anterior.
+- **ctrl w w** - Troca para o outro arquivo
+- **:qa** - fecha todos os arquivos
+- **:qa!** - fecha todos os arquivos sem salvar.
+- **:wqa** - salva todas as alterações em todos os arquivos.
