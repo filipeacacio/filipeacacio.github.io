@@ -5,9 +5,6 @@ date:   2020-01-22 20:55:00 +0000
 categories: linux vi vim vimdiff
 ---
 
-{{ page.url | absolute_url }}
-{{ site.baseurl }}
-
 Pra quem não sabe o vimdiff é uma feature do editor de textos vim para comparar arquivos. É bastante utilizado para visualizar diferenças em arquivos (de texto) semelhantes, sobretudo em servidores sem ambiente gráfico. Ele pode ser utilizado para comparar 2, 3 ou 4 arquivos simultaneamente.
 
 ### Comparando dois aquivos
